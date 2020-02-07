@@ -1,0 +1,56 @@
+languageCode = "de-de"
+theme = "raditian-custom-theme"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+  [[menu.header]]
+  name = "Home"
+  URL = "/"
+  weight = 1
+
+  [[menu.header]]
+  name = "Blog"
+  URL = "/blog"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Home"
+  URL = "/"
+  weight = 1
+ 
+  [[menu.footer]]
+  name = "Blog"
+  URL = "/blog"
+  weight = 2
+
+[params]
+  [params.logo]
+    text1 = "David"
+    text2 = "Ferneding"
+
+  [params.footer.imprint]
+      name = "David Ferneding"
+      street = "Am Kirchplatz 3"
+      city = "49681 Nikolausdorf"
+      email = "mail@davidferneding.de"
+      phone = "+49 1525 306 73 22"

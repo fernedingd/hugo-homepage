@@ -1,0 +1,155 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hi, ich bin David."
+  subtitle: "Und das ist meine Homepage."
+  description: "Diese Seite ist noch in Arbeit, die Informationen, die erreichbar sind sind aber vollständig. Der Blog ist aktuell noch nicht verfügbar. Ggf. wird diese Seite im Laufe der Zeit noch erweitert."
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Kontakt"
+    URL: "mailto:mail@davidferneding.de"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/david-ferneding-289aba144/"
+
+    - icon: "xing"
+      URL: "https://www.xing.com/profile/David_Ferneding/"
+
+    - icon: "github"
+      URL: "https://github.com/fernedingd"
+
+    - icon: "stackoverflow"
+      URL: "https://stackoverflow.com/users/7506825/david3103"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/david.ferneding/"
+
+# about
+about:
+  enable: true
+  title: "Wer bin ich?"
+  content: '<p class="lead">
+    Ich bin David Ferneding, bin 20 Jahre alt und komme aus dem schönen Cloppenburger Raum. Berufliche Informationen finden sich auf dieser Seite genug, daher möchte ich mich and dieser Stelle einmal privat vorstellen.<br />
+    Meinen Ausgleich zur Arbeit hole ich mir in meinem Ehrenamt in der DLRG. Nach vielen Jahren als Schwimmer und Rettungsschwimmer habe ich dort als Trainer für die Kinder bis 12 Jahren angefangen, ein Job, der mir noch immer viel Spaß macht. Nach Vollendung meines 18. Lebensjahres habe ich dann meine Ausbilderlizenz für den Bereich Schwimmen/Rettungsschwimmen gemacht und die Leitung der Rettungsschwimmausbildung übernommen, so wie die Ausbildung zum Wachführer gemacht. Bei der darauffolgenden Vorstandswahl wurde ich dann zum Technischen Leiter gewählt und habe damit die Leitung des Wasserrettungsdienstes und der Ausbildung übernommen. Außerdem kümmere ich mich in Zusammenarbeit mit dem Vorsitzenden um das Ehrenamtsmanagements, um auch den jüngeren Aktiven den Weg zu ebnen, um die Aufgaben zu übernehmen, die diese aufnehmen wollen.
+    </p>'  
+  image:
+    x: "img/who-am-i/user-picture.jpg"
+    _2x: "img/who-am-i/user-picture@2x.jpg"
+
+# education
+education:
+  enable: true
+  title: "Ausbildung"
+  items:
+    - university: "IBS - IT & Business School Oldenburg - Duales Studium Wirtschaftsinformatik"
+      year: "2017 - heute"
+      degree: 'bald: B.Sc. Wirtschaftsinformatik<br />
+              2019: Fachinformatiker Anwendungsentwicklung'
+
+    - university: "BBS Haarentor - Fachoberschule Wirtschaft, Schwerpunkt Informatik"
+      year: "2015 - 2017"
+      degree: "Fachhochschulreife"
+
+# experience
+experience:
+  enable: true
+  title: "Berufserfahrung"
+  description: "Abgesehen von einigen Schülerjobs und Schulpraktika habe ich meine Berufserfahrung bis jetzt vor allem bei AMCON gesammelt. Angefangen habe ich dort mit einem Jahrespraktikum im Rahmen der Fachoberschule, während der 12. Klasse habe ich dann dort nach der Schule gearbeitet. In dieser Zeit wurde mir das Firmeninterne ERP-System anvertraut, welches ich unter anderem um ein Modul zur Unterstützung der Neukundenakquise und zur Pflege von Kundenbeziehungen erweitert habe.<br />
+  Für mein Duales Studium habe ich Projektura dann an einen Kollegen abgegeben und bin in die Android-Abteilung gewechselt. Neben Erweiterungen der bestehenden Systeme habe ich dort im Rahmen meines Ausbildungsabschlusses zum Fachinformatiker Anwendungsentwicklung 'UFHO Beeline' entwickelt, eine Endkunden-App als Teil der AMCON Lösung für Luftlinientarife." 
+
+  items:
+    - title: "Softwareentwickler Android"
+      company: "AMCON GmbH"
+      type: "Duales Studium Wirtschaftsinformatik"
+      duration: "Aug 2017 - heute"
+      description: "<p>Hauptaufgaben:
+                    <ul>
+                    <li>Planung, Konzeptionierung und Implementierung neuer Komponenten unterschiedlicher Komplexität</li>
+                    <li>Identifizierung und Refactoring verbesserungsbedürftiger Programmbestandteile</li>
+                    <li>Firefighting</li>
+                    </ul>
+                    </p>"
+
+    - title: "Softwareentwickler Android"
+      company: "AMCON GmbH"
+      type: "Vollzeit"
+      duration: "Jun 2017 - Jul 2017"
+      description: "<p>Hauptaufgaben:
+                    <ul>
+                    <li>Einarbeitung in die Android-Entwicklung und die bestehenden Systeme</li>
+                    <li>Debugging und Bugfixing</li>
+                    <li>Implementierung kleiner bis mittelgroßer neuer Funktionen</li>
+                    </ul>
+                    </p>"
+
+    - title: "Softwareentwickler .NET"
+      type: "Jahrespraktikum, danach Teilzeit/Nebenjob"
+      company: "AMCON GmbH"
+      duration: "Aug 2015 - Mai 2017"
+      description: "<p>Hauptaufgaben:
+                    <ul>
+                    <li>Eigenverantwortliche Weiterentwicklung und Pflege des firmeninternen ERP-Systems</li>
+                    </ul>
+                    </p>"
+
+# Client & Work
+client_and_work:
+  title: "Clients & Works"
+  enable: false
+
+  works:
+    - title: "Radity Finance - UI Kit"
+      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/radity-finance.jpg"
+        _2x: "img/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "Swiss Fintech Website"
+      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/swissfintech.jpg"
+        _2x: "img/works/swissfintech@2x.jpg"
+      is_even: false
+
+    - title: "Robo Advisor"
+      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: true
+
+# contact
+contact:
+  enable: false
+  title: "Kontakt"
+  form:
+    action: "#"
+    full_name: "Name"
+    email: "Email"
+    message: "Nachricht"
+  email:
+    title: "Email"
+    email: '<a href="mailto:mail@davidferneding.de">mail@davidferneding.de</a>'
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Nachricht senden"

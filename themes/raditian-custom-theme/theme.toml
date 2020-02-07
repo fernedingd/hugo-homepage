@@ -1,0 +1,10 @@
+name = "Custom Theme based on Raditian Free Hugo Theme"
+license = "MIT"
+description = "A responsive custom theme based on Raditian Free Hugo Theme"
+tags = ['personal-website', 'personal', 'portfolio', 'single-page', 'one-page', 'fast', 'typography', 'customizable', 'mobile', 'resume', 'fresh', 'modern', 'flexbox', 'hugo-theme', 'hugo', 'bootstrap', 'responsive', 'clean', 'simple', 'creative', 'contact form', 'light', 'white', 'custom-design', 'minimal', 'minimalistic', 'minimalist', 'portfolio', 'customizable', 'flexbox', 'starter', 'theme']
+features = ['responsive', 'bootstrap']
+min_version = "0.59.0"
+
+[author]
+  name = "David Ferneding"
+  homepage = "davidferneding.de"

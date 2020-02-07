@@ -1,0 +1,14 @@
+{{ if .Site.Data.homepage.privacy.enable }}
+<section class="section rad-animation-group pb-0" id="privacy">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="col-12 col-md-6 my-auto my-auto">
+        <h2>{{ .Site.Data.homepage.privacy.title }}</h2>
+        <p class="lead">
+          {{ .Site.Data.homepage.privacy.content | safeHTML }}
+        </p> 
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
